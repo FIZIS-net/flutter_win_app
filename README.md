@@ -1,16 +1,7 @@
-# flutter_win_app
+# Flutter windows application
 
-A new Flutter project.
+A simple flutter application using fluent_ui.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Requirements
+- __Flutter__ 3.0.0 and higher
+- __Dart__ 2.17.0 and higher

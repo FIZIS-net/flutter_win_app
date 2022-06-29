@@ -1,5 +1,13 @@
 import 'package:fluent_ui/fluent_ui.dart';
+import 'package:flutter_win_app/widgets/MyAlbumsWidget.dart';
+import 'package:flutter_win_app/widgets/MyFriendsWidget.dart';
+import 'package:flutter_win_app/widgets/MyGroupsWidget.dart';
+import 'package:flutter_win_app/widgets/MyMessagesWidget.dart';
+import 'package:flutter_win_app/widgets/MyMusicWidget.dart';
 import 'package:flutter_win_app/widgets/MyPageWidget.dart';
+import 'package:flutter_win_app/widgets/MyNewsWidget.dart';
+import 'package:flutter_win_app/widgets/MyVideoWidget.dart';
+import 'package:flutter_win_app/widgets/SettingsWidget.dart';
 
 void main() {
   runApp(MyApp());
@@ -68,14 +76,14 @@ class MyAppState extends State<MyApp> {
             index: index,
             children: const [
               MyPageWidget(),
-              Center(child: Text('Новости')),
-              Center(child: Text('Месcенджер')),
-              Center(child: Text('Друзья')),
-              Center(child: Text('Сообщества')),
-              Center(child: Text('Фотографии')),
-              Center(child: Text('Музыка')),
-              Center(child: Text('Видео')),
-              Center(child: Text('Настройки')),
+              MyNewsWidget(),
+              MyMessagesWidget(),
+              MyFriendsWidget(),
+              MyGroupsWidget(),
+              MyAlbumsWidget(),
+              MyMusicWidget(),
+              MyVideoWidget(),
+              SettingsWidget(),
             ],
           ),
         ));
